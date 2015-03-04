@@ -31,9 +31,17 @@ are valid.
 
 ### Server.idr
 
-Isn't a server, yet, but a test program. `make && ./Server` to try it in
-console.
+Helper functions to process requests.
+
+### TCPServer.idr
+
+TCP-server-related functions, mostly copied from IdrisNet2 EchoServer
+example.
+
+### TCPServerTest.idr
+
+An example server application.
 
 ## Dependencies
 
-Lightyear, effects.
+Lightyear, effects, IdrisNet2.
